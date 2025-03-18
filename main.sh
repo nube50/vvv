@@ -125,7 +125,7 @@ function dir_xray() {
 ### Add domain
 function add_domain() {
     echo "`cat /etc/banner`"
-    SUB_DOMAIN=app.culturavpn.online
+    SUB_DOMAIN="app.culturavpn.online"
     echo "Host : $SUB_DOMAIN"
     echo $SUB_DOMAIN > /root/domain
     cp /root/domain /etc/xray/domain
